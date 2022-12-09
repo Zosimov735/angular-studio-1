@@ -1,4 +1,12 @@
-.box {
+.box-style {
     display: flex;
-    padding: 10px;
+    flex-direction: column-reverse;
+    font-size: 20px;
+    font-style: italic;
+    color: blue;
+ }
+
+ .box {
+    display: flex;
+    justify-content: space-between;
  }
